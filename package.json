@@ -1,0 +1,36 @@
+{
+  "name": "mcp-fiscalite-fr",
+  "version": "1.0.0",
+  "description": "Comprehensive MCP server for French tax services and data.",
+  "main": "build/index.js",
+  "bin": {
+    "mcp-fiscalite-fr": "build/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "fiscalite",
+    "impots",
+    "france",
+    "openfisca",
+    "tax",
+    "taxation"
+  ],
+  "author": "Thibault",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
