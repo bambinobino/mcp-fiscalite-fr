@@ -9,7 +9,7 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 import { z } from "zod";
 
-const OPENFISCA_API_BASE = "https://api.openfisca.org/latest";
+const OPENFISCA_API_BASE = "https://api.fr.openfisca.org/latest";
 
 class FrenchTaxServer {
   private server: Server;
